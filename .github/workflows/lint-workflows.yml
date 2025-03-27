@@ -4,7 +4,7 @@ name: Lint workflow files
 on:
   pull_request:
     paths:
-      # Only run when changes are made to workflow files.
+      # Only run when changes are made to workflow files.1
       - '.github/workflows/**'
   push:
     branches:
